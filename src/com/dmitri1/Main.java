@@ -14,7 +14,7 @@ public class Main {
         condition();
     }
 
-    public static void condition(){
+    public static void condition() {
         System.out.println("What do you want to do, add or minus some? ");
         Scanner sc1 = new Scanner(System.in);
         String str = sc1.nextLine();
@@ -31,7 +31,7 @@ public class Main {
         System.out.println(actual);
     }
 
-    public static void add_chicks(){
+    public static void add_chicks() {
         System.out.println("How many chicken do you want add? ");
         Scanner sc2 = new Scanner(System.in);
         add = sc2.nextInt();
@@ -39,7 +39,7 @@ public class Main {
         System.out.println("Now you have " + total_add);
     }
 
-    public static void minus_chicks(){
+    public static void minus_chicks() {
         System.out.println("How many chicken do you want minus? ");
         Scanner sc3 = new Scanner(System.in);
         minus = sc3.nextInt();
